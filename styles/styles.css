@@ -1,0 +1,68 @@
+
+/* Misc */
+
+.floatnone {float: none;}
+.float-left {float:left;}
+
+
+.clearfix:after {clear:both; content:"."; display:block; height:0; line-height:0; visibility:hidden;}
+
+.clearit {
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+	height: 0;
+}
+.clear-both {clear: both;}
+
+.add-bottom-margin {margin-bottom:25px;}
+
+
+
+::selection {
+	background: #FF4F2C; /* Safari */
+	}
+::-moz-selection {
+	background: #FF4F2C; /* Firefox */
+}
+
+
+/* Layout ----------------------------------------------------------------- */
+
+body {background-color: #ffffff; height:100%; position:relative;}
+
+
+/* Typography ----------------------------------------------------------------- */
+
+
+body {font-size: 100%;/*16px*/ line-height: 1.375 ; color: #000000;  }
+
+h1 {font-size: 3em;/*48px*/ line-height: 1em; font-weight: normal; }
+h2 {font-size: 2.125em;/*34px*/ line-height: 1.2em; font-weight: normal;}
+h3 {font-size: 1.75em;/*28px*/ font-weight: normal; }
+h4 {font-size: 1.3125;/*18px*/ font-weight: normal;  }
+h5 {font-family: Helvetica, Arial, sans-serif; font-size: 15px;/*48px*/ color:#888888; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; line-height: 22px;  margin-bottom: 11px;}
+
+
+
+p {margin-bottom:.5em; }
+
+ul,
+ol {margin-bottom: 0px;}
+li {margin-left: 0px;}
+a {text-decoration: none; color: #888888;}
+a:hover {color: #FF4F2C; text-decoration: none;}
+
+.caps {text-transform: uppercase; letter-spacing: 0.1em; font-size: .8em;}
+
+
+/* Header ----------------------------------------------------------------- */
+
+
+/* Main ----------------------------------------------------------------- */
+
+
+/* Footer ----------------------------------------------------------------- */
+
+
+
